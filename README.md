@@ -26,3 +26,6 @@ GENDER DEMOGRAPHICS
     In order to determine the total number of players in my data set I used the .value_counts() while simultaneously getting rid of my duplicates to get a more accurate output. I focused on "Gender" and "SN" to clean out the data set with the following equation
         total= purchase_data[["Gender", "SN"]].drop_duplicates().Gender.value_counts()
     Using the same data parameters and dropping duplicates I changed the format of my output to give me a percent value for my table
+
+PURCHASING GENDER ANALYSIS
+
