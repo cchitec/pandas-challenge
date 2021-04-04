@@ -21,3 +21,6 @@ PURCHASING ANALYSIS (Total)
     Determine the total revenue using the sum function focusing on the price column
         purchase_data_df["Price"].sum()
 
+GENDER DEMOGRAPHICS
+    
+    
