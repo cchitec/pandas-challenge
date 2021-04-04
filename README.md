@@ -7,9 +7,11 @@
  Using pd.DataFrame convert the files to a Pandas DataFrame
 
 PLAYER COUNT
-Using the .groupby() function, focus on the 'SN' column to determine the total number of players
+
+    Using the .groupby() function, focus on the 'SN' column to determine the total number of players
 
 PURCHASING ANALYSIS (Total)
+
     Determine the number of unique items using the unique function
         len(pd.unique(purchase_data_df['Item Name']))
     Determine the average price using the mean function focusing on the price column
@@ -18,3 +20,4 @@ PURCHASING ANALYSIS (Total)
         len(purchase_data_df.groupby("Purchase ID")["SN"].count())
     Determine the total revenue using the sum function focusing on the price column
         purchase_data_df["Price"].sum()
+
