@@ -8,7 +8,7 @@
 
 PLAYER COUNT
 
-    Using the .groupby() function, focus on the 'SN' column to determine the total number of players
+    Using the .loc() function, focus on the 'Gender','Age','SN' columns to determine the total number of players and using the .drop.duplicates function to clean the data set
 
 PURCHASING ANALYSIS (Total)
 
