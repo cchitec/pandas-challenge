@@ -29,3 +29,11 @@ GENDER DEMOGRAPHICS
 
 PURCHASING GENDER ANALYSIS
 
+    Inorder to determine the purchase count I used .value counts() with a focus on "Gender"
+    Inorder to get the average purchase price the .groupby() function was used finding the mean of the "Price" column and renaming the column
+    For total revenue per gender, I applied the same code with the change of deriving the sum of the "Price" column
+    Taking the previously calculated total revenue an purchase count I divided them to get an average price per person per gender
+    
+AGE DEMOGRAPHICS
+
+    Created a variable for the bins and labesl then use pd.cut to categorize the existing players.
